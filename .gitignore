@@ -1,0 +1,17 @@
+.DS_Store
+__pycache__/
+*.pyc
+.env
+*.log
+
+# Big outputs
+results/**/videos/
+results/**/frames/
+results/**/images/
+results/**/checkpoints/
+results/**/models/
+results/**/wandb/
+data/
+
+# Keep only small summaries (we'll re-include what we want below)
+results/
