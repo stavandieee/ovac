@@ -1,0 +1,55 @@
+{
+  "mAP50": 10.684010570546873,
+  "seen_mAP50": 16.02601585582031,
+  "novel_mAP50": 0.0,
+  "per_class": {
+    "plane": 64.37887545995203,
+    "large-vehicle": 6.15301409820725,
+    "small-vehicle": 27.72882444438628,
+    "ship": 46.20490100275777,
+    "harbor": 0.0,
+    "ground-track-field": 0.0,
+    "soccer-ball-field": 13.534414328027387,
+    "tennis-court": 0.0,
+    "baseball-diamond": 0.0,
+    "swimming-pool": 0.0,
+    "roundabout": 1.996096830583638,
+    "basketball-court": 0.0,
+    "storage-tank": 0.0,
+    "bridge": 0.2640323942887602,
+    "helicopter": 0.0
+  },
+  "seen_classes": [
+    "plane",
+    "large-vehicle",
+    "small-vehicle",
+    "ship",
+    "soccer-ball-field",
+    "tennis-court",
+    "roundabout",
+    "basketball-court",
+    "storage-tank",
+    "bridge"
+  ],
+  "novel_classes": [
+    "baseball-diamond",
+    "helicopter",
+    "ground-track-field",
+    "swimming-pool",
+    "harbor"
+  ],
+  "train_labels": 44218,
+  "train_class_counts": {
+    "small-vehicle": 6561,
+    "large-vehicle": 4563,
+    "plane": 8729,
+    "tennis-court": 6023,
+    "soccer-ball-field": 9344,
+    "basketball-court": 3318,
+    "roundabout": 1173,
+    "ship": 3027,
+    "bridge": 1385,
+    "storage-tank": 95
+  },
+  "voted_total": 148575
+}

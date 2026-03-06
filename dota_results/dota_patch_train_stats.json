@@ -1,0 +1,17 @@
+{
+  "patches": 17665,
+  "with_labels": 12320,
+  "total_labels": 70820,
+  "class_counts": {
+    "plane": 20568,
+    "small-vehicle": 16331,
+    "large-vehicle": 9874,
+    "roundabout": 2783,
+    "tennis-court": 4515,
+    "soccer-ball-field": 4609,
+    "basketball-court": 1134,
+    "bridge": 3103,
+    "ship": 7643,
+    "storage-tank": 260
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "mAP50": 11.36971594148986,
+  "seen_mAP50": 17.054573912234787,
+  "novel_mAP50": 0.0,
+  "per_class": {
+    "plane": 75.2014322457943,
+    "large-vehicle": 7.0749408220113414,
+    "small-vehicle": 16.72089388538743,
+    "ship": 50.99539418486888,
+    "harbor": 0.0,
+    "ground-track-field": 0.0,
+    "soccer-ball-field": 18.226348815435024,
+    "tennis-court": 0.0,
+    "baseball-diamond": 0.0,
+    "swimming-pool": 0.0,
+    "roundabout": 2.3267291688509064,
+    "basketball-court": 0.0,
+    "storage-tank": 0.0,
+    "bridge": 0.0,
+    "helicopter": 0.0
+  }
+}
