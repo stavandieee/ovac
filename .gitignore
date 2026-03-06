@@ -15,3 +15,5 @@ data/
 
 # Keep only small summaries (we'll re-include what we want below)
 results/
+
+*.bak
