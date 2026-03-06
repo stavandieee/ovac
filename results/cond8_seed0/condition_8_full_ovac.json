@@ -1,0 +1,1120 @@
+{
+  "stats": {
+    "condition_id": 8,
+    "condition_name": "Full OVAC",
+    "n_trials": 100,
+    "msr_mean": 0.0,
+    "msr_ci95": 0.0,
+    "ttc_mean": 0.0,
+    "ttc_std": 0.0,
+    "safety_violations_mean": 1.0,
+    "safety_violations_total": 100,
+    "nfz_violations_total": 100,
+    "collisions_total": 0,
+    "battery_deaths_total": 0,
+    "verifier_rejection_rate": null,
+    "high_priority_rate_mean": 0.0
+  },
+  "trials": [
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    },
+    {
+      "mission_success": false,
+      "steps_used": 0,
+      "safety_log": {
+        "nfz_violations": 1,
+        "collisions": 0,
+        "battery_deaths": 0
+      },
+      "high_priority_rate": 0,
+      "error": "name 'config' is not defined"
+    }
+  ]
+}

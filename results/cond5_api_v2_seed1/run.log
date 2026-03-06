@@ -1,0 +1,25 @@
+
+============================================================
+  Condition 5: LLM + Rules (20 trials)
+============================================================
+
+  RESULTS: LLM + Rules
+    MSR: 45.0% ± 21.8%
+    TTC: 5705 ± 335 steps
+    Safety violations: 1.60/trial (32 total)
+    Verifier rejection rate: 4.9%
+
+
+==========================================================================================
+  TABLE 4: SAR Coordination Results (100 Trials, 4 Drones, Mean ± 95% CI)
+==========================================================================================
+  Configuration                       MSR (%)    TTC (steps)   Safety Viol.  Verifier Rej.
+  ------------------------------------------------------------------------------------
+  Classical multi-robot baselines
+  LLM-based planning
+  LLM + Rules                     45.0±21.8        5705          1.60              5%
+==========================================================================================
+
+✓ All results saved to results/cond5_api_v2_seed1/
+
+Total time: 11.0 minutes

@@ -1,0 +1,18 @@
+{
+  "4": {
+    "condition_id": 4,
+    "condition_name": "LLM Only",
+    "n_trials": 20,
+    "msr_mean": 40.0,
+    "msr_ci95": 21.470724254202512,
+    "ttc_mean": 5803.95,
+    "ttc_std": 364.1129598078047,
+    "safety_violations_mean": 2.65,
+    "safety_violations_total": 53,
+    "nfz_violations_total": 53,
+    "collisions_total": 0,
+    "battery_deaths_total": 0,
+    "verifier_rejection_rate": null,
+    "high_priority_rate_mean": 69.375
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "7": {
+    "condition_id": 7,
+    "condition_name": "LLM + Hybrid Verifier",
+    "n_trials": 20,
+    "msr_mean": 30.0,
+    "msr_ci95": 20.08402350128081,
+    "ttc_mean": 5393.9,
+    "ttc_std": 475.97698473770765,
+    "safety_violations_mean": 1.4,
+    "safety_violations_total": 28,
+    "nfz_violations_total": 28,
+    "collisions_total": 0,
+    "battery_deaths_total": 0,
+    "verifier_rejection_rate": 5.174501424501425,
+    "high_priority_rate_mean": 71.25
+  }
+}

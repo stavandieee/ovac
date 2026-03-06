@@ -1,0 +1,45 @@
+
+============================================================
+  Condition 7: LLM + Hybrid Verifier (20 trials)
+============================================================
+Loaded feasibility classifier from coordination/models/feas_mlp.joblib
+Loaded feasibility classifier from coordination/models/feas_mlp.joblib
+Loaded feasibility classifier from coordination/models/feas_mlp.joblib
+Loaded feasibility classifier from coordination/models/feas_mlp.joblib
+Loaded feasibility classifier from coordination/models/feas_mlp.joblib
+Loaded feasibility classifier from coordination/models/feas_mlp.joblib
+Loaded feasibility classifier from coordination/models/feas_mlp.joblib
+Loaded feasibility classifier from coordination/models/feas_mlp.joblib
+Loaded feasibility classifier from coordination/models/feas_mlp.joblib
+Loaded feasibility classifier from coordination/models/feas_mlp.joblib
+Loaded feasibility classifier from coordination/models/feas_mlp.joblib
+Loaded feasibility classifier from coordination/models/feas_mlp.joblib
+Loaded feasibility classifier from coordination/models/feas_mlp.joblib
+Loaded feasibility classifier from coordination/models/feas_mlp.joblib
+Loaded feasibility classifier from coordination/models/feas_mlp.joblib
+Loaded feasibility classifier from coordination/models/feas_mlp.joblib
+Loaded feasibility classifier from coordination/models/feas_mlp.joblib
+Loaded feasibility classifier from coordination/models/feas_mlp.joblib
+Loaded feasibility classifier from coordination/models/feas_mlp.joblib
+Loaded feasibility classifier from coordination/models/feas_mlp.joblib
+
+  RESULTS: LLM + Hybrid Verifier
+    MSR: 30.0% ± 20.1%
+    TTC: 5394 ± 476 steps
+    Safety violations: 1.40/trial (28 total)
+    Verifier rejection rate: 5.2%
+
+
+==========================================================================================
+  TABLE 4: SAR Coordination Results (100 Trials, 4 Drones, Mean ± 95% CI)
+==========================================================================================
+  Configuration                       MSR (%)    TTC (steps)   Safety Viol.  Verifier Rej.
+  ------------------------------------------------------------------------------------
+  Classical multi-robot baselines
+  LLM-based planning
+  LLM + Hybrid Verifier           30.0±20.1        5394          1.40              5%
+==========================================================================================
+
+✓ All results saved to results/cond7_api_v2/
+
+Total time: 11.2 minutes

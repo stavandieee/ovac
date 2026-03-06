@@ -1,0 +1,38 @@
+{
+  "0.3": {
+    "threshold": 0.3,
+    "msr": 86.0,
+    "violations_mean": 3.42,
+    "rejection_rate": 4.9407351035034495
+  },
+  "0.4": {
+    "threshold": 0.4,
+    "msr": 82.0,
+    "violations_mean": 3.32,
+    "rejection_rate": 6.210876197043673
+  },
+  "0.5": {
+    "threshold": 0.5,
+    "msr": 68.0,
+    "violations_mean": 3.2,
+    "rejection_rate": 9.213433944369708
+  },
+  "0.6": {
+    "threshold": 0.6,
+    "msr": 22.0,
+    "violations_mean": 2.06,
+    "rejection_rate": 22.170290613916432
+  },
+  "0.7": {
+    "threshold": 0.7,
+    "msr": 0.0,
+    "violations_mean": 0.32,
+    "rejection_rate": 39.61633400259905
+  },
+  "0.8": {
+    "threshold": 0.8,
+    "msr": 0.0,
+    "violations_mean": 0.0,
+    "rejection_rate": 47.83822077310446
+  }
+}

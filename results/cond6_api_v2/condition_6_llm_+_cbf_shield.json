@@ -1,0 +1,1000 @@
+{
+  "stats": {
+    "condition_id": 6,
+    "condition_name": "LLM + CBF Shield",
+    "n_trials": 20,
+    "msr_mean": 55.00000000000001,
+    "msr_ci95": 21.803623552061246,
+    "ttc_mean": 5726.2,
+    "ttc_std": 512.0111912839407,
+    "safety_violations_mean": 1.6,
+    "safety_violations_total": 32,
+    "nfz_violations_total": 32,
+    "collisions_total": 0,
+    "battery_deaths_total": 0,
+    "verifier_rejection_rate": null,
+    "high_priority_rate_mean": 77.5
+  },
+  "trials": [
+    {
+      "mission_success": true,
+      "high_priority_found": 8,
+      "high_priority_total": 8,
+      "high_priority_rate": 1.0,
+      "all_found": 12,
+      "all_total": 12,
+      "overall_rate": 1.0,
+      "steps_used": 5496,
+      "max_steps": 14400,
+      "time_fraction": 0.38166666666666665,
+      "safety_log": {
+        "collisions": 0,
+        "nfz_violations": 2,
+        "battery_deaths": 0,
+        "targets_found_over_time": [],
+        "messages_sent": 0,
+        "messages_bytes": 0,
+        "verifier_rejections": 0,
+        "primitive_count": 52,
+        "cbf_modifications": 0
+      },
+      "per_drone_summary": [
+        {
+          "id": 0,
+          "active": true,
+          "battery_remaining": 0.905,
+          "targets_found": 3
+        },
+        {
+          "id": 1,
+          "active": true,
+          "battery_remaining": 0.905,
+          "targets_found": 4
+        },
+        {
+          "id": 2,
+          "active": true,
+          "battery_remaining": 0.905,
+          "targets_found": 4
+        },
+        {
+          "id": 3,
+          "active": true,
+          "battery_remaining": 0.904,
+          "targets_found": 1
+        }
+      ]
+    },
+    {
+      "mission_success": false,
+      "high_priority_found": 6,
+      "high_priority_total": 8,
+      "high_priority_rate": 0.75,
+      "all_found": 9,
+      "all_total": 12,
+      "overall_rate": 0.75,
+      "steps_used": 5789,
+      "max_steps": 14400,
+      "time_fraction": 0.4020138888888889,
+      "safety_log": {
+        "collisions": 0,
+        "nfz_violations": 1,
+        "battery_deaths": 0,
+        "targets_found_over_time": [],
+        "messages_sent": 0,
+        "messages_bytes": 0,
+        "verifier_rejections": 0,
+        "primitive_count": 52,
+        "cbf_modifications": 0
+      },
+      "per_drone_summary": [
+        {
+          "id": 0,
+          "active": true,
+          "battery_remaining": 0.894,
+          "targets_found": 3
+        },
+        {
+          "id": 1,
+          "active": true,
+          "battery_remaining": 0.899,
+          "targets_found": 2
+        },
+        {
+          "id": 2,
+          "active": true,
+          "battery_remaining": 0.903,
+          "targets_found": 3
+        },
+        {
+          "id": 3,
+          "active": true,
+          "battery_remaining": 0.903,
+          "targets_found": 1
+        }
+      ]
+    },
+    {
+      "mission_success": true,
+      "high_priority_found": 7,
+      "high_priority_total": 8,
+      "high_priority_rate": 0.875,
+      "all_found": 11,
+      "all_total": 12,
+      "overall_rate": 0.9166666666666666,
+      "steps_used": 6034,
+      "max_steps": 14400,
+      "time_fraction": 0.4190277777777778,
+      "safety_log": {
+        "collisions": 0,
+        "nfz_violations": 0,
+        "battery_deaths": 0,
+        "targets_found_over_time": [],
+        "messages_sent": 0,
+        "messages_bytes": 0,
+        "verifier_rejections": 0,
+        "primitive_count": 52,
+        "cbf_modifications": 0
+      },
+      "per_drone_summary": [
+        {
+          "id": 0,
+          "active": true,
+          "battery_remaining": 0.917,
+          "targets_found": 0
+        },
+        {
+          "id": 1,
+          "active": true,
+          "battery_remaining": 0.871,
+          "targets_found": 4
+        },
+        {
+          "id": 2,
+          "active": true,
+          "battery_remaining": 0.912,
+          "targets_found": 4
+        },
+        {
+          "id": 3,
+          "active": true,
+          "battery_remaining": 0.881,
+          "targets_found": 3
+        }
+      ]
+    },
+    {
+      "mission_success": true,
+      "high_priority_found": 7,
+      "high_priority_total": 8,
+      "high_priority_rate": 0.875,
+      "all_found": 11,
+      "all_total": 12,
+      "overall_rate": 0.9166666666666666,
+      "steps_used": 5712,
+      "max_steps": 14400,
+      "time_fraction": 0.39666666666666667,
+      "safety_log": {
+        "collisions": 0,
+        "nfz_violations": 2,
+        "battery_deaths": 0,
+        "targets_found_over_time": [],
+        "messages_sent": 0,
+        "messages_bytes": 0,
+        "verifier_rejections": 0,
+        "primitive_count": 52,
+        "cbf_modifications": 1
+      },
+      "per_drone_summary": [
+        {
+          "id": 0,
+          "active": true,
+          "battery_remaining": 0.901,
+          "targets_found": 6
+        },
+        {
+          "id": 1,
+          "active": true,
+          "battery_remaining": 0.901,
+          "targets_found": 2
+        },
+        {
+          "id": 2,
+          "active": true,
+          "battery_remaining": 0.901,
+          "targets_found": 1
+        },
+        {
+          "id": 3,
+          "active": true,
+          "battery_remaining": 0.901,
+          "targets_found": 2
+        }
+      ]
+    },
+    {
+      "mission_success": false,
+      "high_priority_found": 3,
+      "high_priority_total": 8,
+      "high_priority_rate": 0.375,
+      "all_found": 5,
+      "all_total": 12,
+      "overall_rate": 0.4166666666666667,
+      "steps_used": 5673,
+      "max_steps": 14400,
+      "time_fraction": 0.39395833333333335,
+      "safety_log": {
+        "collisions": 0,
+        "nfz_violations": 2,
+        "battery_deaths": 0,
+        "targets_found_over_time": [],
+        "messages_sent": 0,
+        "messages_bytes": 0,
+        "verifier_rejections": 0,
+        "primitive_count": 52,
+        "cbf_modifications": 0
+      },
+      "per_drone_summary": [
+        {
+          "id": 0,
+          "active": true,
+          "battery_remaining": 0.892,
+          "targets_found": 4
+        },
+        {
+          "id": 1,
+          "active": true,
+          "battery_remaining": 0.896,
+          "targets_found": 1
+        },
+        {
+          "id": 2,
+          "active": true,
+          "battery_remaining": 0.908,
+          "targets_found": 0
+        },
+        {
+          "id": 3,
+          "active": true,
+          "battery_remaining": 0.909,
+          "targets_found": 0
+        }
+      ]
+    },
+    {
+      "mission_success": false,
+      "high_priority_found": 4,
+      "high_priority_total": 8,
+      "high_priority_rate": 0.5,
+      "all_found": 5,
+      "all_total": 12,
+      "overall_rate": 0.4166666666666667,
+      "steps_used": 3928,
+      "max_steps": 14400,
+      "time_fraction": 0.2727777777777778,
+      "safety_log": {
+        "collisions": 0,
+        "nfz_violations": 3,
+        "battery_deaths": 0,
+        "targets_found_over_time": [],
+        "messages_sent": 0,
+        "messages_bytes": 0,
+        "verifier_rejections": 0,
+        "primitive_count": 52,
+        "cbf_modifications": 0
+      },
+      "per_drone_summary": [
+        {
+          "id": 0,
+          "active": true,
+          "battery_remaining": 0.921,
+          "targets_found": 1
+        },
+        {
+          "id": 1,
+          "active": true,
+          "battery_remaining": 0.935,
+          "targets_found": 0
+        },
+        {
+          "id": 2,
+          "active": true,
+          "battery_remaining": 0.935,
+          "targets_found": 2
+        },
+        {
+          "id": 3,
+          "active": true,
+          "battery_remaining": 0.935,
+          "targets_found": 2
+        }
+      ]
+    },
+    {
+      "mission_success": true,
+      "high_priority_found": 8,
+      "high_priority_total": 8,
+      "high_priority_rate": 1.0,
+      "all_found": 11,
+      "all_total": 12,
+      "overall_rate": 0.9166666666666666,
+      "steps_used": 5605,
+      "max_steps": 14400,
+      "time_fraction": 0.3892361111111111,
+      "safety_log": {
+        "collisions": 0,
+        "nfz_violations": 2,
+        "battery_deaths": 0,
+        "targets_found_over_time": [],
+        "messages_sent": 0,
+        "messages_bytes": 0,
+        "verifier_rejections": 0,
+        "primitive_count": 52,
+        "cbf_modifications": 1
+      },
+      "per_drone_summary": [
+        {
+          "id": 0,
+          "active": true,
+          "battery_remaining": 0.905,
+          "targets_found": 3
+        },
+        {
+          "id": 1,
+          "active": true,
+          "battery_remaining": 0.901,
+          "targets_found": 1
+        },
+        {
+          "id": 2,
+          "active": true,
+          "battery_remaining": 0.903,
+          "targets_found": 4
+        },
+        {
+          "id": 3,
+          "active": true,
+          "battery_remaining": 0.903,
+          "targets_found": 3
+        }
+      ]
+    },
+    {
+      "mission_success": false,
+      "high_priority_found": 5,
+      "high_priority_total": 8,
+      "high_priority_rate": 0.625,
+      "all_found": 8,
+      "all_total": 12,
+      "overall_rate": 0.6666666666666666,
+      "steps_used": 6052,
+      "max_steps": 14400,
+      "time_fraction": 0.42027777777777775,
+      "safety_log": {
+        "collisions": 0,
+        "nfz_violations": 2,
+        "battery_deaths": 0,
+        "targets_found_over_time": [],
+        "messages_sent": 0,
+        "messages_bytes": 0,
+        "verifier_rejections": 0,
+        "primitive_count": 52,
+        "cbf_modifications": 0
+      },
+      "per_drone_summary": [
+        {
+          "id": 0,
+          "active": true,
+          "battery_remaining": 0.886,
+          "targets_found": 4
+        },
+        {
+          "id": 1,
+          "active": true,
+          "battery_remaining": 0.891,
+          "targets_found": 1
+        },
+        {
+          "id": 2,
+          "active": true,
+          "battery_remaining": 0.899,
+          "targets_found": 3
+        },
+        {
+          "id": 3,
+          "active": true,
+          "battery_remaining": 0.903,
+          "targets_found": 0
+        }
+      ]
+    },
+    {
+      "mission_success": false,
+      "high_priority_found": 6,
+      "high_priority_total": 8,
+      "high_priority_rate": 0.75,
+      "all_found": 8,
+      "all_total": 12,
+      "overall_rate": 0.6666666666666666,
+      "steps_used": 5381,
+      "max_steps": 14400,
+      "time_fraction": 0.37368055555555557,
+      "safety_log": {
+        "collisions": 0,
+        "nfz_violations": 0,
+        "battery_deaths": 0,
+        "targets_found_over_time": [],
+        "messages_sent": 0,
+        "messages_bytes": 0,
+        "verifier_rejections": 0,
+        "primitive_count": 52,
+        "cbf_modifications": 1
+      },
+      "per_drone_summary": [
+        {
+          "id": 0,
+          "active": true,
+          "battery_remaining": 0.917,
+          "targets_found": 2
+        },
+        {
+          "id": 1,
+          "active": true,
+          "battery_remaining": 0.919,
+          "targets_found": 2
+        },
+        {
+          "id": 2,
+          "active": true,
+          "battery_remaining": 0.916,
+          "targets_found": 2
+        },
+        {
+          "id": 3,
+          "active": true,
+          "battery_remaining": 0.875,
+          "targets_found": 2
+        }
+      ]
+    },
+    {
+      "mission_success": true,
+      "high_priority_found": 8,
+      "high_priority_total": 8,
+      "high_priority_rate": 1.0,
+      "all_found": 12,
+      "all_total": 12,
+      "overall_rate": 1.0,
+      "steps_used": 6378,
+      "max_steps": 14400,
+      "time_fraction": 0.4429166666666667,
+      "safety_log": {
+        "collisions": 0,
+        "nfz_violations": 2,
+        "battery_deaths": 0,
+        "targets_found_over_time": [],
+        "messages_sent": 0,
+        "messages_bytes": 0,
+        "verifier_rejections": 0,
+        "primitive_count": 52,
+        "cbf_modifications": 1
+      },
+      "per_drone_summary": [
+        {
+          "id": 0,
+          "active": true,
+          "battery_remaining": 0.89,
+          "targets_found": 5
+        },
+        {
+          "id": 1,
+          "active": true,
+          "battery_remaining": 0.89,
+          "targets_found": 2
+        },
+        {
+          "id": 2,
+          "active": true,
+          "battery_remaining": 0.888,
+          "targets_found": 2
+        },
+        {
+          "id": 3,
+          "active": true,
+          "battery_remaining": 0.889,
+          "targets_found": 3
+        }
+      ]
+    },
+    {
+      "mission_success": true,
+      "high_priority_found": 7,
+      "high_priority_total": 8,
+      "high_priority_rate": 0.875,
+      "all_found": 9,
+      "all_total": 12,
+      "overall_rate": 0.75,
+      "steps_used": 5615,
+      "max_steps": 14400,
+      "time_fraction": 0.38993055555555556,
+      "safety_log": {
+        "collisions": 0,
+        "nfz_violations": 5,
+        "battery_deaths": 0,
+        "targets_found_over_time": [],
+        "messages_sent": 0,
+        "messages_bytes": 0,
+        "verifier_rejections": 0,
+        "primitive_count": 52,
+        "cbf_modifications": 0
+      },
+      "per_drone_summary": [
+        {
+          "id": 0,
+          "active": true,
+          "battery_remaining": 0.893,
+          "targets_found": 5
+        },
+        {
+          "id": 1,
+          "active": true,
+          "battery_remaining": 0.899,
+          "targets_found": 2
+        },
+        {
+          "id": 2,
+          "active": true,
+          "battery_remaining": 0.906,
+          "targets_found": 1
+        },
+        {
+          "id": 3,
+          "active": true,
+          "battery_remaining": 0.912,
+          "targets_found": 1
+        }
+      ]
+    },
+    {
+      "mission_success": false,
+      "high_priority_found": 6,
+      "high_priority_total": 8,
+      "high_priority_rate": 0.75,
+      "all_found": 10,
+      "all_total": 12,
+      "overall_rate": 0.8333333333333334,
+      "steps_used": 5651,
+      "max_steps": 14400,
+      "time_fraction": 0.39243055555555556,
+      "safety_log": {
+        "collisions": 0,
+        "nfz_violations": 1,
+        "battery_deaths": 0,
+        "targets_found_over_time": [],
+        "messages_sent": 0,
+        "messages_bytes": 0,
+        "verifier_rejections": 0,
+        "primitive_count": 52,
+        "cbf_modifications": 0
+      },
+      "per_drone_summary": [
+        {
+          "id": 0,
+          "active": true,
+          "battery_remaining": 0.94,
+          "targets_found": 3
+        },
+        {
+          "id": 1,
+          "active": true,
+          "battery_remaining": 0.918,
+          "targets_found": 2
+        },
+        {
+          "id": 2,
+          "active": true,
+          "battery_remaining": 0.875,
+          "targets_found": 2
+        },
+        {
+          "id": 3,
+          "active": true,
+          "battery_remaining": 0.874,
+          "targets_found": 3
+        }
+      ]
+    },
+    {
+      "mission_success": true,
+      "high_priority_found": 7,
+      "high_priority_total": 8,
+      "high_priority_rate": 0.875,
+      "all_found": 11,
+      "all_total": 12,
+      "overall_rate": 0.9166666666666666,
+      "steps_used": 6065,
+      "max_steps": 14400,
+      "time_fraction": 0.42118055555555556,
+      "safety_log": {
+        "collisions": 0,
+        "nfz_violations": 2,
+        "battery_deaths": 0,
+        "targets_found_over_time": [],
+        "messages_sent": 0,
+        "messages_bytes": 0,
+        "verifier_rejections": 0,
+        "primitive_count": 52,
+        "cbf_modifications": 0
+      },
+      "per_drone_summary": [
+        {
+          "id": 0,
+          "active": true,
+          "battery_remaining": 0.899,
+          "targets_found": 2
+        },
+        {
+          "id": 1,
+          "active": true,
+          "battery_remaining": 0.894,
+          "targets_found": 4
+        },
+        {
+          "id": 2,
+          "active": true,
+          "battery_remaining": 0.895,
+          "targets_found": 1
+        },
+        {
+          "id": 3,
+          "active": true,
+          "battery_remaining": 0.891,
+          "targets_found": 4
+        }
+      ]
+    },
+    {
+      "mission_success": false,
+      "high_priority_found": 4,
+      "high_priority_total": 8,
+      "high_priority_rate": 0.5,
+      "all_found": 5,
+      "all_total": 12,
+      "overall_rate": 0.4166666666666667,
+      "steps_used": 5505,
+      "max_steps": 14400,
+      "time_fraction": 0.38229166666666664,
+      "safety_log": {
+        "collisions": 0,
+        "nfz_violations": 2,
+        "battery_deaths": 0,
+        "targets_found_over_time": [],
+        "messages_sent": 0,
+        "messages_bytes": 0,
+        "verifier_rejections": 0,
+        "primitive_count": 52,
+        "cbf_modifications": 0
+      },
+      "per_drone_summary": [
+        {
+          "id": 0,
+          "active": true,
+          "battery_remaining": 0.899,
+          "targets_found": 3
+        },
+        {
+          "id": 1,
+          "active": true,
+          "battery_remaining": 0.903,
+          "targets_found": 0
+        },
+        {
+          "id": 2,
+          "active": true,
+          "battery_remaining": 0.907,
+          "targets_found": 2
+        },
+        {
+          "id": 3,
+          "active": true,
+          "battery_remaining": 0.909,
+          "targets_found": 0
+        }
+      ]
+    },
+    {
+      "mission_success": false,
+      "high_priority_found": 5,
+      "high_priority_total": 8,
+      "high_priority_rate": 0.625,
+      "all_found": 8,
+      "all_total": 12,
+      "overall_rate": 0.6666666666666666,
+      "steps_used": 5651,
+      "max_steps": 14400,
+      "time_fraction": 0.39243055555555556,
+      "safety_log": {
+        "collisions": 0,
+        "nfz_violations": 1,
+        "battery_deaths": 0,
+        "targets_found_over_time": [],
+        "messages_sent": 0,
+        "messages_bytes": 0,
+        "verifier_rejections": 0,
+        "primitive_count": 52,
+        "cbf_modifications": 0
+      },
+      "per_drone_summary": [
+        {
+          "id": 0,
+          "active": true,
+          "battery_remaining": 0.921,
+          "targets_found": 1
+        },
+        {
+          "id": 1,
+          "active": true,
+          "battery_remaining": 0.918,
+          "targets_found": 3
+        },
+        {
+          "id": 2,
+          "active": true,
+          "battery_remaining": 0.884,
+          "targets_found": 2
+        },
+        {
+          "id": 3,
+          "active": true,
+          "battery_remaining": 0.885,
+          "targets_found": 2
+        }
+      ]
+    },
+    {
+      "mission_success": true,
+      "high_priority_found": 8,
+      "high_priority_total": 8,
+      "high_priority_rate": 1.0,
+      "all_found": 12,
+      "all_total": 12,
+      "overall_rate": 1.0,
+      "steps_used": 6061,
+      "max_steps": 14400,
+      "time_fraction": 0.4209027777777778,
+      "safety_log": {
+        "collisions": 0,
+        "nfz_violations": 0,
+        "battery_deaths": 0,
+        "targets_found_over_time": [],
+        "messages_sent": 0,
+        "messages_bytes": 0,
+        "verifier_rejections": 0,
+        "primitive_count": 52,
+        "cbf_modifications": 0
+      },
+      "per_drone_summary": [
+        {
+          "id": 0,
+          "active": true,
+          "battery_remaining": 0.895,
+          "targets_found": 5
+        },
+        {
+          "id": 1,
+          "active": true,
+          "battery_remaining": 0.884,
+          "targets_found": 5
+        },
+        {
+          "id": 2,
+          "active": true,
+          "battery_remaining": 0.889,
+          "targets_found": 1
+        },
+        {
+          "id": 3,
+          "active": true,
+          "battery_remaining": 0.91,
+          "targets_found": 1
+        }
+      ]
+    },
+    {
+      "mission_success": false,
+      "high_priority_found": 4,
+      "high_priority_total": 8,
+      "high_priority_rate": 0.5,
+      "all_found": 7,
+      "all_total": 12,
+      "overall_rate": 0.5833333333333334,
+      "steps_used": 5529,
+      "max_steps": 14400,
+      "time_fraction": 0.38395833333333335,
+      "safety_log": {
+        "collisions": 0,
+        "nfz_violations": 1,
+        "battery_deaths": 0,
+        "targets_found_over_time": [],
+        "messages_sent": 0,
+        "messages_bytes": 0,
+        "verifier_rejections": 0,
+        "primitive_count": 52,
+        "cbf_modifications": 0
+      },
+      "per_drone_summary": [
+        {
+          "id": 0,
+          "active": true,
+          "battery_remaining": 0.899,
+          "targets_found": 3
+        },
+        {
+          "id": 1,
+          "active": true,
+          "battery_remaining": 0.904,
+          "targets_found": 0
+        },
+        {
+          "id": 2,
+          "active": true,
+          "battery_remaining": 0.908,
+          "targets_found": 3
+        },
+        {
+          "id": 3,
+          "active": true,
+          "battery_remaining": 0.906,
+          "targets_found": 1
+        }
+      ]
+    },
+    {
+      "mission_success": true,
+      "high_priority_found": 7,
+      "high_priority_total": 8,
+      "high_priority_rate": 0.875,
+      "all_found": 11,
+      "all_total": 12,
+      "overall_rate": 0.9166666666666666,
+      "steps_used": 6293,
+      "max_steps": 14400,
+      "time_fraction": 0.43701388888888887,
+      "safety_log": {
+        "collisions": 0,
+        "nfz_violations": 0,
+        "battery_deaths": 0,
+        "targets_found_over_time": [],
+        "messages_sent": 0,
+        "messages_bytes": 0,
+        "verifier_rejections": 0,
+        "primitive_count": 52,
+        "cbf_modifications": 0
+      },
+      "per_drone_summary": [
+        {
+          "id": 0,
+          "active": true,
+          "battery_remaining": 0.913,
+          "targets_found": 2
+        },
+        {
+          "id": 1,
+          "active": true,
+          "battery_remaining": 0.874,
+          "targets_found": 4
+        },
+        {
+          "id": 2,
+          "active": true,
+          "battery_remaining": 0.898,
+          "targets_found": 1
+        },
+        {
+          "id": 3,
+          "active": true,
+          "battery_remaining": 0.879,
+          "targets_found": 4
+        }
+      ]
+    },
+    {
+      "mission_success": true,
+      "high_priority_found": 7,
+      "high_priority_total": 8,
+      "high_priority_rate": 0.875,
+      "all_found": 9,
+      "all_total": 12,
+      "overall_rate": 0.75,
+      "steps_used": 6451,
+      "max_steps": 14400,
+      "time_fraction": 0.4479861111111111,
+      "safety_log": {
+        "collisions": 0,
+        "nfz_violations": 2,
+        "battery_deaths": 0,
+        "targets_found_over_time": [],
+        "messages_sent": 0,
+        "messages_bytes": 0,
+        "verifier_rejections": 0,
+        "primitive_count": 52,
+        "cbf_modifications": 0
+      },
+      "per_drone_summary": [
+        {
+          "id": 0,
+          "active": true,
+          "battery_remaining": 0.889,
+          "targets_found": 2
+        },
+        {
+          "id": 1,
+          "active": true,
+          "battery_remaining": 0.889,
+          "targets_found": 1
+        },
+        {
+          "id": 2,
+          "active": true,
+          "battery_remaining": 0.889,
+          "targets_found": 4
+        },
+        {
+          "id": 3,
+          "active": true,
+          "battery_remaining": 0.884,
+          "targets_found": 2
+        }
+      ]
+    },
+    {
+      "mission_success": true,
+      "high_priority_found": 7,
+      "high_priority_total": 8,
+      "high_priority_rate": 0.875,
+      "all_found": 9,
+      "all_total": 12,
+      "overall_rate": 0.75,
+      "steps_used": 5655,
+      "max_steps": 14400,
+      "time_fraction": 0.3927083333333333,
+      "safety_log": {
+        "collisions": 0,
+        "nfz_violations": 2,
+        "battery_deaths": 0,
+        "targets_found_over_time": [],
+        "messages_sent": 0,
+        "messages_bytes": 0,
+        "verifier_rejections": 0,
+        "primitive_count": 52,
+        "cbf_modifications": 0
+      },
+      "per_drone_summary": [
+        {
+          "id": 0,
+          "active": true,
+          "battery_remaining": 0.895,
+          "targets_found": 6
+        },
+        {
+          "id": 1,
+          "active": true,
+          "battery_remaining": 0.9,
+          "targets_found": 2
+        },
+        {
+          "id": 2,
+          "active": true,
+          "battery_remaining": 0.904,
+          "targets_found": 0
+        },
+        {
+          "id": 3,
+          "active": true,
+          "battery_remaining": 0.908,
+          "targets_found": 1
+        }
+      ]
+    }
+  ]
+}

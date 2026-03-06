@@ -1,0 +1,660 @@
+
+============================================================
+  Condition 1: Voronoi Coverage (100 trials)
+============================================================
+  [25/100] MSR: 100%  Violations: 91  Avg steps: 17092
+  [50/100] MSR: 100%  Violations: 193  Avg steps: 17104
+  [75/100] MSR: 100%  Violations: 280  Avg steps: 17079
+  [100/100] MSR: 100%  Violations: 377  Avg steps: 17084
+
+  RESULTS: Voronoi Coverage
+    MSR: 100.0% ± 0.0%
+    TTC: 17084 ± 247 steps
+    Safety violations: 3.77/trial (377 total)
+
+============================================================
+  Condition 2: Frontier Exploration (100 trials)
+============================================================
+  [25/100] MSR: 100%  Violations: 1215  Avg steps: 13458
+  [50/100] MSR: 100%  Violations: 2475  Avg steps: 13298
+  [75/100] MSR: 99%  Violations: 3744  Avg steps: 13259
+  [100/100] MSR: 99%  Violations: 5050  Avg steps: 13316
+
+  RESULTS: Frontier Exploration
+    MSR: 99.0% ± 2.0%
+    TTC: 13316 ± 1363 steps
+    Safety violations: 50.50/trial (5050 total)
+
+============================================================
+  Condition 3: Symbolic Planner (100 trials)
+============================================================
+  [25/100] MSR: 48%  Violations: 58  Avg steps: 4682
+  [50/100] MSR: 40%  Violations: 115  Avg steps: 4682
+  [75/100] MSR: 39%  Violations: 173  Avg steps: 4682
+  [100/100] MSR: 41%  Violations: 234  Avg steps: 4682
+
+  RESULTS: Symbolic Planner
+    MSR: 41.0% ± 9.6%
+    TTC: 4682 ± 0 steps
+    Safety violations: 2.34/trial (234 total)
+
+============================================================
+  Condition 4: LLM Only (100 trials)
+============================================================
+  [25/100] MSR: 84%  Violations: 128  Avg steps: 10647
+  [50/100] MSR: 90%  Violations: 267  Avg steps: 10728
+  [75/100] MSR: 85%  Violations: 396  Avg steps: 10714
+  [100/100] MSR: 87%  Violations: 512  Avg steps: 10714
+
+  RESULTS: LLM Only
+    MSR: 87.0% ± 6.6%
+    TTC: 10714 ± 441 steps
+    Safety violations: 5.12/trial (512 total)
+
+============================================================
+  Condition 5: LLM + Rules (100 trials)
+============================================================
+  [25/100] MSR: 84%  Violations: 83  Avg steps: 10059
+  [50/100] MSR: 86%  Violations: 148  Avg steps: 10086
+  [75/100] MSR: 85%  Violations: 225  Avg steps: 10008
+  [100/100] MSR: 85%  Violations: 314  Avg steps: 10005
+
+  RESULTS: LLM + Rules
+    MSR: 85.0% ± 7.0%
+    TTC: 10005 ± 583 steps
+    Safety violations: 3.14/trial (314 total)
+    Verifier rejection rate: 4.3%
+
+============================================================
+  Condition 6: LLM + CBF Shield (100 trials)
+============================================================
+  [25/100] MSR: 96%  Violations: 119  Avg steps: 10729
+  [50/100] MSR: 90%  Violations: 234  Avg steps: 10774
+  [75/100] MSR: 87%  Violations: 360  Avg steps: 10744
+  [100/100] MSR: 89%  Violations: 484  Avg steps: 10754
+
+  RESULTS: LLM + CBF Shield
+    MSR: 89.0% ± 6.1%
+    TTC: 10754 ± 512 steps
+    Safety violations: 4.84/trial (484 total)
+
+============================================================
+  Condition 7: LLM + Hybrid Verifier (100 trials)
+============================================================
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+  [25/100] MSR: 84%  Violations: 74  Avg steps: 10257
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+  [50/100] MSR: 84%  Violations: 151  Avg steps: 10142
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+  [75/100] MSR: 80%  Violations: 233  Avg steps: 10088
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+  [100/100] MSR: 78%  Violations: 302  Avg steps: 10052
+
+  RESULTS: LLM + Hybrid Verifier
+    MSR: 78.0% ± 8.1%
+    TTC: 10052 ± 659 steps
+    Safety violations: 3.02/trial (302 total)
+    Verifier rejection rate: 4.2%
+
+============================================================
+  Condition 8: Full OVAC (100 trials)
+============================================================
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+  [25/100] MSR: 76%  Violations: 84  Avg steps: 9102
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+  [50/100] MSR: 74%  Violations: 151  Avg steps: 8859
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+  [75/100] MSR: 73%  Violations: 208  Avg steps: 8586
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+  [100/100] MSR: 73%  Violations: 264  Avg steps: 8594
+
+  RESULTS: Full OVAC
+    MSR: 73.0% ± 8.7%
+    TTC: 8594 ± 2137 steps
+    Safety violations: 2.64/trial (264 total)
+    Verifier rejection rate: 4.9%
+
+
+==========================================================================================
+  TABLE 4: SAR Coordination Results (100 Trials, 4 Drones, Mean ± 95% CI)
+==========================================================================================
+  Configuration                       MSR (%)    TTC (steps)   Safety Viol.  Verifier Rej.
+  ------------------------------------------------------------------------------------
+  Classical multi-robot baselines
+  Voronoi Coverage               100.0±0.0       17084          3.77             N/A
+  Frontier Exploration            99.0±2.0       13316         50.50             N/A
+  Symbolic Planner                41.0±9.6        4682          2.34             N/A
+  LLM-based planning
+  LLM Only                        87.0±6.6       10714          5.12             N/A
+  LLM + Rules                     85.0±7.0       10005          3.14              4%
+  LLM + CBF Shield                89.0±6.1       10754          4.84             N/A
+  LLM + Hybrid Verifier           78.0±8.1       10052          3.02              4%
+  Full OVAC                       73.0±8.7        8594          2.64              5%
+==========================================================================================
+
+✓ All results saved to results/coordination/
+
+============================================================
+  TABLE 5: Verifier Threshold Sweep (50 trials each)
+============================================================
+
+  τ_h = 0.3...
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+    MSR: 86.0%  Violations: 3.42  Rejection: 5.5%
+
+  τ_h = 0.4...
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+    MSR: 86.0%  Violations: 3.42  Rejection: 5.5%
+
+  τ_h = 0.5...
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+    MSR: 86.0%  Violations: 3.42  Rejection: 5.5%
+
+  τ_h = 0.6...
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+    MSR: 86.0%  Violations: 3.42  Rejection: 5.5%
+
+  τ_h = 0.7...
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+    MSR: 86.0%  Violations: 3.42  Rejection: 5.5%
+
+  τ_h = 0.8...
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+LearnedFeasibilityClassifier: using heuristic fallback
+    MSR: 86.0%  Violations: 3.42  Rejection: 5.5%
+
+   Threshold    MSR (%)   Safety Viol.   Rejection Rate
+  --------------------------------------------------
+         0.3       86.0           3.42             5.5%
+         0.4       86.0           3.42             5.5%
+         0.5       86.0           3.42             5.5%
+         0.6       86.0           3.42             5.5%
+         0.7       86.0           3.42             5.5%
+         0.8       86.0           3.42             5.5%
+
+Total time: 2.2 minutes

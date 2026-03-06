@@ -1,0 +1,229 @@
+# Perception Experiment Configuration
+# All hyperparameters for Track A experiments
+
+# ======================
+# Dataset paths
+# ======================
+data:
+  visdrone_root: "./data/visdrone"
+  dota_root: "./data/dota"
+  weights_dir: "./data/weights"
+  results_dir: "./results/perception"
+
+# ======================
+# VisDrone category definitions
+# ======================
+visdrone:
+  # All 10 VisDrone categories
+  all_categories:
+    - "pedestrian"
+    - "person"
+    - "car"
+    - "van"
+    - "bus"
+    - "truck"
+    - "motor"
+    - "bicycle"
+    - "awning-tricycle"
+    - "tricycle"
+  
+  # Category ID mapping (VisDrone uses 1-indexed, 0=ignored, 11=others)
+  category_id_map:
+    1: "pedestrian"
+    2: "person"
+    3: "car"
+    4: "van"
+    5: "bus"
+    6: "truck"
+    7: "motor"
+    8: "bicycle"
+    9: "awning-tricycle"
+    10: "tricycle"
+
+  # Zero-shot holdout categories (never seen during adaptation)
+  novel_categories:
+    - "awning-tricycle"
+    - "tricycle"
+  
+  # Seen categories (available for adaptation reference)
+  seen_categories:
+    - "pedestrian"
+    - "person"
+    - "car"
+    - "van"
+    - "bus"
+    - "truck"
+    - "motor"
+    - "bicycle"
+
+# ======================
+# DOTA category definitions
+# ======================
+dota:
+  all_categories:
+    - "plane"
+    - "ship"
+    - "storage-tank"
+    - "baseball-diamond"
+    - "tennis-court"
+    - "basketball-court"
+    - "ground-track-field"
+    - "harbor"
+    - "bridge"
+    - "large-vehicle"
+    - "small-vehicle"
+    - "helicopter"
+    - "roundabout"
+    - "soccer-ball-field"
+    - "swimming-pool"
+    - "container-crane"
+    - "airport"
+    - "helipad"
+  
+  # Zero-shot holdouts from DOTA
+  novel_categories:
+    - "helicopter"
+    - "harbor"
+    - "swimming-pool"
+    - "container-crane"
+    - "helipad"
+  
+  seen_categories:
+    - "plane"
+    - "ship"
+    - "storage-tank"
+    - "baseball-diamond"
+    - "tennis-court"
+    - "basketball-court"
+    - "ground-track-field"
+    - "bridge"
+    - "large-vehicle"
+    - "small-vehicle"
+    - "roundabout"
+    - "soccer-ball-field"
+    - "airport"
+
+# ======================
+# Model configurations
+# ======================
+models:
+  grounding_dino_swint:
+    config: "GroundingDINO_SwinT_OGC"
+    weights: "groundingdino_swint_ogc.pth"
+    box_threshold: 0.25
+    text_threshold: 0.25
+  
+  grounding_dino_swinb:
+    config: "GroundingDINO_SwinB_cogcoor"
+    weights: "groundingdino_swinb_cogcoor.pth"
+    box_threshold: 0.25
+    text_threshold: 0.25
+  
+  owlv2_base:
+    checkpoint: "google/owlv2-base-patch16-ensemble"
+    score_threshold: 0.1
+  
+  owlv2_large:
+    checkpoint: "google/owlv2-large-patch14-ensemble"
+    score_threshold: 0.1
+  
+  clip_vitl14:
+    checkpoint: "openai/clip-vit-large-patch14"
+  
+  yolov8l:
+    checkpoint: "yolov8l.pt"
+    epochs: 100
+    imgsz: 640
+    batch: 16
+
+# ======================
+# Experiment P1: Baseline OVD evaluation
+# ======================
+exp_p1:
+  name: "baseline_ovd"
+  models: ["grounding_dino_swint", "grounding_dino_swinb", "owlv2_base", "owlv2_large"]
+  datasets: ["visdrone", "dota"]
+  metrics: ["mAP50", "mAP50_95", "per_class_AP", "recall_at_k"]
+  recall_k_values: [1, 5, 10]
+  nms_iou_threshold: 0.5
+  seeds: [42, 123, 456, 789, 1024]
+
+# ======================
+# Experiment P2: Closed-set YOLOv8 baseline
+# ======================
+exp_p2:
+  name: "yolo_baseline"
+  model: "yolov8l"
+  dataset: "visdrone"
+  train_split: "train"
+  eval_split: "test-dev"
+  epochs: 100
+  optimizer: "AdamW"
+  lr: 0.001
+  batch_size: 16
+  img_size: 640
+
+# ======================
+# Experiment P3: Student-Teacher Domain Adaptation
+# ======================
+exp_p3:
+  name: "student_teacher"
+  teacher_model: "grounding_dino_swint"
+  student_backbone: "yolov8s"  # lighter student
+  
+  # Pseudo-label generation
+  teacher_confidence_thresholds: [0.5, 0.6, 0.7, 0.8]
+  primary_threshold: 0.7
+  
+  # Student training
+  student_epochs: 100
+  student_lr: 0.0001
+  student_optimizer: "AdamW"
+  student_scheduler: "cosine"
+  student_batch_size: 16
+  student_img_size: 640
+  
+  # Text encoder attachment for open-vocab student
+  text_encoder: "clip_vitl14"
+  projection_dim: 512
+  
+  # Augmentations (aerial-specific)
+  augmentations:
+    motion_blur_prob: 0.3
+    motion_blur_kernel: [5, 15]
+    altitude_scale_range: [0.5, 2.0]
+    haze_prob: 0.2
+    haze_alpha_range: [0.1, 0.4]
+    color_jitter_brightness: 0.3
+    color_jitter_contrast: 0.3
+    color_jitter_saturation: 0.2
+
+# ======================
+# Experiment P4: Temporal Fusion
+# ======================
+exp_p4:
+  name: "temporal_fusion"
+  ema_alphas: [0.1, 0.3, 0.5, 0.7]
+  primary_alpha: 0.3
+  sequence_length: 10  # frames to aggregate
+  dataset: "visdrone"  # use video sequences
+  
+# ======================
+# Experiment P5: Active Re-observation
+# ======================
+exp_p5:
+  name: "active_reobs"
+  n_views: [1, 3, 5, 7]
+  # Simulated viewpoint changes from DOTA (crop + rotate + scale)
+  altitude_variations: [0.7, 0.85, 1.0, 1.15, 1.3]  # scale factors
+  heading_variations: [0, 45, 90, 135, 180]  # degrees
+  aggregation: "max"  # max, mean, or ema over views
+
+# ======================
+# Statistical analysis
+# ======================
+stats:
+  n_seeds: 5
+  confidence_level: 0.95
+  effect_size_metric: "cohens_d"
+  paired_test: "t_test"

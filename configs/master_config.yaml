@@ -1,0 +1,306 @@
+# ======================================================================
+# OVAC Experiment Configuration — Single Source of Truth
+# All hyperparameters, paths, and experiment specs in one file.
+# Do NOT hardcode values in scripts — always reference this config.
+# ======================================================================
+
+project:
+  name: "OVAC"
+  paper: "Open-Vocabulary Aerial Coordination"
+  venue: "IEEE T-RO"
+  seed: 42
+  device: "cuda"  # cuda or cpu
+
+# ======================================================================
+# Paths — override via environment variables or CLI
+# ======================================================================
+paths:
+  data_root: "${DATA_ROOT:./data}"
+  weights_dir: "${DATA_ROOT:./data}/weights"
+  results_root: "./results"
+  visdrone_root: "${DATA_ROOT:./data}/visdrone"
+  dota_root: "${DATA_ROOT:./data}/dota"
+
+# ======================================================================
+# Track A: Perception
+# ======================================================================
+perception:
+
+  # VisDrone category taxonomy
+  visdrone:
+    categories: &visdrone_all
+      - pedestrian
+      - person
+      - car
+      - van
+      - bus
+      - truck
+      - motor
+      - bicycle
+      - awning-tricycle
+      - tricycle
+    id_map:
+      1: pedestrian
+      2: person
+      3: car
+      4: van
+      5: bus
+      6: truck
+      7: motor
+      8: bicycle
+      9: awning-tricycle
+      10: tricycle
+    novel: &visdrone_novel [awning-tricycle, tricycle]
+    seen: &visdrone_seen [pedestrian, person, car, van, bus, truck, motor, bicycle]
+
+  # DOTA v2.0 category taxonomy
+  dota:
+    categories:
+      - plane
+      - ship
+      - storage-tank
+      - baseball-diamond
+      - tennis-court
+      - basketball-court
+      - ground-track-field
+      - harbor
+      - bridge
+      - large-vehicle
+      - small-vehicle
+      - helicopter
+      - roundabout
+      - soccer-ball-field
+      - swimming-pool
+      - container-crane
+      - airport
+      - helipad
+    novel: [helicopter, harbor, swimming-pool, container-crane, helipad]
+
+  # Model checkpoints
+  models:
+    grounding_dino_swint:
+      type: grounding_dino
+      config_name: GroundingDINO_SwinT_OGC
+      weights: groundingdino_swint_ogc.pth
+      weights_url: "https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alpha/groundingdino_swint_ogc.pth"
+      box_threshold: 0.25
+      text_threshold: 0.25
+
+    grounding_dino_swinb:
+      type: grounding_dino
+      config_name: GroundingDINO_SwinB_cogcoor
+      weights: groundingdino_swinb_cogcoor.pth
+      weights_url: "https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alpha2/groundingdino_swinb_cogcoor.pth"
+      box_threshold: 0.25
+      text_threshold: 0.25
+
+    owlv2_base:
+      type: owlv2
+      checkpoint: google/owlv2-base-patch16-ensemble
+      score_threshold: 0.1
+
+    owlv2_large:
+      type: owlv2
+      checkpoint: google/owlv2-large-patch14-ensemble
+      score_threshold: 0.1
+
+    yolov8l:
+      type: yolov8
+      checkpoint: yolov8l.pt
+      imgsz: 640
+
+  # --- Experiment P1: Zero-shot OVD baselines ---
+  exp_p1:
+    name: baseline_ovd
+    models: [grounding_dino_swint, grounding_dino_swinb, owlv2_base, owlv2_large]
+    datasets: [visdrone]
+    nms_iou: 0.5
+    metrics: [mAP50, mAP50_95, per_class_AP, recall_at_k]
+    recall_k: [1, 5, 10]
+
+  # --- Experiment P2: YOLOv8 closed-set ---
+  exp_p2:
+    name: yolo_closed_set
+    model: yolov8l
+    epochs: 100
+    lr: 0.001
+    batch_size: 16
+    optimizer: AdamW
+
+  # --- Experiment P3: Student-teacher adaptation ---
+  exp_p3:
+    name: student_teacher
+    teacher: grounding_dino_swint
+    student_backbone: yolov8s
+    text_encoder: openai/clip-vit-large-patch14
+    projection_dim: 512
+    pseudo_label_thresholds: [0.5, 0.6, 0.7, 0.8]
+    primary_threshold: 0.7
+    # Pseudo-label quality filters
+    nms_iou: 0.5
+    min_box_area: 256  # 16x16 pixels
+    cross_model_vote: true
+    cross_model_vote_threshold: 2  # of 3 models must agree
+    cross_model_confidence_offset: 0.1
+    # Student training
+    student_epochs: 100
+    student_lr: 0.0001
+    student_batch_size: 16
+    use_soft_labels: true
+    use_cutmix: true
+    cutmix_alpha: 1.0
+    # Aerial augmentations
+    augmentations:
+      motion_blur_prob: 0.3
+      motion_blur_kernel: [5, 15]
+      altitude_scale: [0.5, 2.0]
+      haze_prob: 0.2
+      haze_alpha: [0.1, 0.4]
+      color_jitter:
+        brightness: 0.3
+        contrast: 0.3
+        saturation: 0.2
+
+  # --- Experiment P4: Temporal fusion ---
+  exp_p4:
+    name: temporal_fusion
+    ema_alphas: [0.1, 0.3, 0.5, 0.7]
+    primary_alpha: 0.3
+    iou_match_threshold: 0.3
+    min_consecutive_frames: 2
+    sequence_length: 10
+
+  # --- Experiment P5: Active re-observation ---
+  exp_p5:
+    name: active_reobs
+    n_views: [1, 3, 5, 7]
+    altitude_scales: [0.7, 0.85, 1.0, 1.15, 1.3]
+    heading_rotations: [0, 45, 90, 135, 180]
+    aggregation: max  # max, mean, ema
+
+# ======================================================================
+# Track B: Coordination
+# ======================================================================
+coordination:
+
+  # SAR environment
+  environment:
+    arena_size: [500.0, 500.0]
+    n_drones: 4
+    n_targets_range: [8, 15]
+    n_nfz_range: [2, 4]
+    control_hz: 24
+    max_duration_minutes: 10
+    max_steps: 14400  # 10min * 60s * 24Hz
+    max_velocity: 15.0  # m/s
+    default_altitude: 30.0
+    min_altitude: 5.0
+    max_altitude: 120.0
+    min_inter_drone_dist: 5.0
+    battery_drain_per_step: 0.0000694  # 1/14400
+    battery_reserve: 0.15
+    battery_critical: 0.10
+    success_threshold: 0.8  # 80% high-priority targets
+
+  # Perception simulator (calibrated from Track A)
+  perception_sim:
+    base_probs:
+      easy: 0.92    # calibrate from P1 results
+      medium: 0.71
+      hard: 0.43
+    max_detection_range: 50.0
+    optimal_altitude: 30.0
+    false_positive_rate: 0.05
+
+  # LLM planner
+  planner:
+    primary_model: meta-llama/Llama-3-70b-chat-hf
+    comparison_models:
+      - gpt-4o
+      - claude-sonnet-4-5-20250514
+    temperature: 0.3
+    max_tokens: 2000
+    n_plans_per_scenario: 10
+    n_scenarios: 10
+
+  # Grounding translator
+  translator:
+    n_pairs: 12000
+    n_templates: 40
+    train_split: 0.8
+    val_split: 0.1
+    test_split: 0.1
+    model:
+      layers: 2
+      d_model: 256
+      n_heads: 4
+      epochs: 50
+      lr: 0.0001
+    llm_held_out_pairs: 500
+
+  # Verifier
+  verifier:
+    n_rollouts: 50000
+    mlp_layers: [128, 64, 32]
+    mlp_epochs: 100
+    mlp_lr: 0.001
+    threshold_sweep: [0.3, 0.4, 0.5, 0.6, 0.7, 0.8]
+    primary_threshold: 0.6
+
+  # --- Experiment conditions ---
+  conditions:
+    - name: voronoi_coverage
+      type: classical
+      planner: voronoi
+      verifier: none
+    - name: frontier_exploration
+      type: classical
+      planner: frontier
+      verifier: none
+    - name: symbolic_grid
+      type: classical
+      planner: symbolic
+      verifier: none
+    - name: llm_only
+      type: llm
+      planner: llm
+      verifier: none
+    - name: llm_rules
+      type: llm
+      planner: llm
+      verifier: rules
+    - name: llm_cbf
+      type: llm
+      planner: llm
+      verifier: cbf
+    - name: llm_hybrid
+      type: llm
+      planner: llm
+      verifier: hybrid
+    - name: full_ovac
+      type: llm
+      planner: llm
+      verifier: hybrid
+      perception: calibrated
+
+  trials_per_condition: 100
+  total_trials: 800
+
+# ======================================================================
+# Statistical analysis
+# ======================================================================
+stats:
+  confidence_level: 0.95
+  effect_size: cohens_d
+  test: paired_t
+  power_target: 0.9
+
+# ======================================================================
+# Logging
+# ======================================================================
+logging:
+  level: INFO
+  save_raw_logs: true
+  save_llm_io: true  # Save all LLM inputs/outputs for reproducibility
+  wandb_project: "ovac-tro"
+  wandb_enabled: false  # Set true when running real experiments

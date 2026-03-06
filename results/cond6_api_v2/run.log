@@ -1,0 +1,24 @@
+
+============================================================
+  Condition 6: LLM + CBF Shield (20 trials)
+============================================================
+
+  RESULTS: LLM + CBF Shield
+    MSR: 55.0% ± 21.8%
+    TTC: 5726 ± 512 steps
+    Safety violations: 1.60/trial (32 total)
+
+
+==========================================================================================
+  TABLE 4: SAR Coordination Results (100 Trials, 4 Drones, Mean ± 95% CI)
+==========================================================================================
+  Configuration                       MSR (%)    TTC (steps)   Safety Viol.  Verifier Rej.
+  ------------------------------------------------------------------------------------
+  Classical multi-robot baselines
+  LLM-based planning
+  LLM + CBF Shield                55.0±21.8        5726          1.60             N/A
+==========================================================================================
+
+✓ All results saved to results/cond6_api_v2/
+
+Total time: 11.1 minutes

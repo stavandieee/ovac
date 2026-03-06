@@ -1,0 +1,18 @@
+{
+  "5": {
+    "condition_id": 5,
+    "condition_name": "LLM + Rules",
+    "n_trials": 100,
+    "msr_mean": 0.0,
+    "msr_ci95": 0.0,
+    "ttc_mean": 0.0,
+    "ttc_std": 0.0,
+    "safety_violations_mean": 1.0,
+    "safety_violations_total": 100,
+    "nfz_violations_total": 100,
+    "collisions_total": 0,
+    "battery_deaths_total": 0,
+    "verifier_rejection_rate": null,
+    "high_priority_rate_mean": 0.0
+  }
+}

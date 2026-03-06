@@ -1,0 +1,24 @@
+
+============================================================
+  Condition 4: LLM Only (20 trials)
+============================================================
+
+  RESULTS: LLM Only
+    MSR: 20.0% ± 17.5%
+    TTC: 4795 ± 601 steps
+    Safety violations: 2.80/trial (56 total)
+
+
+==========================================================================================
+  TABLE 4: SAR Coordination Results (100 Trials, 4 Drones, Mean ± 95% CI)
+==========================================================================================
+  Configuration                       MSR (%)    TTC (steps)   Safety Viol.  Verifier Rej.
+  ------------------------------------------------------------------------------------
+  Classical multi-robot baselines
+  LLM-based planning
+  LLM Only                        20.0±17.5        4795          2.80             N/A
+==========================================================================================
+
+✓ All results saved to results/cond4_api_seed0/
+
+Total time: 6.8 minutes

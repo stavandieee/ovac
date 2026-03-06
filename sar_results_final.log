@@ -1,0 +1,47 @@
+
+============================================================
+  Condition 1: Voronoi Coverage (100 trials)
+============================================================
+  [25/100] MSR: 100%  Violations: 91  Avg steps: 17092
+  [50/100] MSR: 100%  Violations: 193  Avg steps: 17104
+  [75/100] MSR: 100%  Violations: 280  Avg steps: 17079
+  [100/100] MSR: 100%  Violations: 377  Avg steps: 17084
+
+  RESULTS: Voronoi Coverage
+    MSR: 100.0% ± 0.0%
+    TTC: 17084 ± 247 steps
+    Safety violations: 3.77/trial (377 total)
+
+============================================================
+  Condition 2: Frontier Exploration (100 trials)
+============================================================
+  [25/100] MSR: 100%  Violations: 1215  Avg steps: 13458
+  [50/100] MSR: 100%  Violations: 2475  Avg steps: 13298
+  [75/100] MSR: 99%  Violations: 3744  Avg steps: 13259
+  [100/100] MSR: 99%  Violations: 5050  Avg steps: 13316
+
+  RESULTS: Frontier Exploration
+    MSR: 99.0% ± 2.0%
+    TTC: 13316 ± 1363 steps
+    Safety violations: 50.50/trial (5050 total)
+
+============================================================
+  Condition 3: Symbolic Planner (100 trials)
+============================================================
+  [25/100] MSR: 48%  Violations: 58  Avg steps: 4682
+  [50/100] MSR: 40%  Violations: 115  Avg steps: 4682
+  [75/100] MSR: 39%  Violations: 173  Avg steps: 4682
+  [100/100] MSR: 41%  Violations: 234  Avg steps: 4682
+
+  RESULTS: Symbolic Planner
+    MSR: 41.0% ± 9.6%
+    TTC: 4682 ± 0 steps
+    Safety violations: 2.34/trial (234 total)
+
+============================================================
+  Condition 4: LLM Only (100 trials)
+============================================================
+  Trial 0 FAILED: Cannot cast ufunc 'add' output from dtype('float64') to dtype('int64') with casting rule 'same_kind'
+  Trial 1 FAILED: Cannot cast ufunc 'add' output from dtype('float64') to dtype('int64') with casting rule 'same_kind'
+  Trial 2 FAILED: Cannot cast ufunc 'add' output from dtype('float64') to dtype('int64') with casting rule 'same_kind'
+  Trial 3 FAILED: Cannot cast ufunc 'add' output from dtype('float64') to dtype('int64') with casting rule 'same_kind'

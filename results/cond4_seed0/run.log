@@ -1,0 +1,28 @@
+
+============================================================
+  Condition 4: LLM Only (100 trials)
+============================================================
+  [25/100] MSR: 84%  Violations: 128  Avg steps: 10647
+  [50/100] MSR: 90%  Violations: 267  Avg steps: 10728
+  [75/100] MSR: 85%  Violations: 396  Avg steps: 10714
+  [100/100] MSR: 87%  Violations: 512  Avg steps: 10714
+
+  RESULTS: LLM Only
+    MSR: 87.0% ± 6.6%
+    TTC: 10714 ± 441 steps
+    Safety violations: 5.12/trial (512 total)
+
+
+==========================================================================================
+  TABLE 4: SAR Coordination Results (100 Trials, 4 Drones, Mean ± 95% CI)
+==========================================================================================
+  Configuration                       MSR (%)    TTC (steps)   Safety Viol.  Verifier Rej.
+  ------------------------------------------------------------------------------------
+  Classical multi-robot baselines
+  LLM-based planning
+  LLM Only                        87.0±6.6       10714          5.12             N/A
+==========================================================================================
+
+✓ All results saved to results/cond4_seed0/
+
+Total time: 0.2 minutes

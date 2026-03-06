@@ -1,0 +1,569 @@
+{
+  "model": "claude-sonnet-4-5-20250929",
+  "n_plans": 30,
+  "parse_rate": 96.66666666666667,
+  "valid_plan_rate": 96.66666666666667,
+  "avg_actions": 52.0,
+  "valid_type_rate": 100.0,
+  "valid_drone_rate": 100.0,
+  "nfz_aware_rate": 68.96551724137932,
+  "per_plan": [
+    {
+      "json_parse": true,
+      "has_actions": true,
+      "n_actions": 52,
+      "valid_types": 52,
+      "invalid_types": 0,
+      "has_position": 24,
+      "missing_position": 0,
+      "valid_drone_ids": 52,
+      "invalid_drone_ids": 0,
+      "nfz_aware": true,
+      "actions_per_drone": {
+        "0": 13,
+        "1": 13,
+        "2": 13,
+        "3": 13
+      },
+      "nfz_violations_in_plan": 0
+    },
+    {
+      "json_parse": true,
+      "has_actions": true,
+      "n_actions": 52,
+      "valid_types": 52,
+      "invalid_types": 0,
+      "has_position": 24,
+      "missing_position": 0,
+      "valid_drone_ids": 52,
+      "invalid_drone_ids": 0,
+      "nfz_aware": false,
+      "actions_per_drone": {
+        "0": 13,
+        "1": 13,
+        "2": 13,
+        "3": 13
+      },
+      "nfz_violations_in_plan": 1
+    },
+    {
+      "json_parse": true,
+      "has_actions": true,
+      "n_actions": 52,
+      "valid_types": 52,
+      "invalid_types": 0,
+      "has_position": 24,
+      "missing_position": 0,
+      "valid_drone_ids": 52,
+      "invalid_drone_ids": 0,
+      "nfz_aware": true,
+      "actions_per_drone": {
+        "0": 13,
+        "1": 13,
+        "2": 13,
+        "3": 13
+      },
+      "nfz_violations_in_plan": 0
+    },
+    {
+      "json_parse": true,
+      "has_actions": true,
+      "n_actions": 52,
+      "valid_types": 52,
+      "invalid_types": 0,
+      "has_position": 24,
+      "missing_position": 0,
+      "valid_drone_ids": 52,
+      "invalid_drone_ids": 0,
+      "nfz_aware": true,
+      "actions_per_drone": {
+        "0": 13,
+        "1": 13,
+        "2": 13,
+        "3": 13
+      },
+      "nfz_violations_in_plan": 0
+    },
+    {
+      "json_parse": true,
+      "has_actions": true,
+      "n_actions": 52,
+      "valid_types": 52,
+      "invalid_types": 0,
+      "has_position": 24,
+      "missing_position": 0,
+      "valid_drone_ids": 52,
+      "invalid_drone_ids": 0,
+      "nfz_aware": false,
+      "actions_per_drone": {
+        "0": 13,
+        "1": 13,
+        "2": 13,
+        "3": 13
+      },
+      "nfz_violations_in_plan": 3
+    },
+    {
+      "json_parse": true,
+      "has_actions": true,
+      "n_actions": 52,
+      "valid_types": 52,
+      "invalid_types": 0,
+      "has_position": 24,
+      "missing_position": 0,
+      "valid_drone_ids": 52,
+      "invalid_drone_ids": 0,
+      "nfz_aware": false,
+      "actions_per_drone": {
+        "0": 13,
+        "1": 13,
+        "2": 13,
+        "3": 13
+      },
+      "nfz_violations_in_plan": 1
+    },
+    {
+      "json_parse": true,
+      "has_actions": true,
+      "n_actions": 52,
+      "valid_types": 52,
+      "invalid_types": 0,
+      "has_position": 24,
+      "missing_position": 0,
+      "valid_drone_ids": 52,
+      "invalid_drone_ids": 0,
+      "nfz_aware": true,
+      "actions_per_drone": {
+        "0": 13,
+        "1": 13,
+        "2": 13,
+        "3": 13
+      },
+      "nfz_violations_in_plan": 0
+    },
+    {
+      "json_parse": true,
+      "has_actions": true,
+      "n_actions": 52,
+      "valid_types": 52,
+      "invalid_types": 0,
+      "has_position": 24,
+      "missing_position": 0,
+      "valid_drone_ids": 52,
+      "invalid_drone_ids": 0,
+      "nfz_aware": true,
+      "actions_per_drone": {
+        "0": 13,
+        "1": 13,
+        "2": 13,
+        "3": 13
+      },
+      "nfz_violations_in_plan": 0
+    },
+    {
+      "json_parse": true,
+      "has_actions": true,
+      "n_actions": 52,
+      "valid_types": 52,
+      "invalid_types": 0,
+      "has_position": 24,
+      "missing_position": 0,
+      "valid_drone_ids": 52,
+      "invalid_drone_ids": 0,
+      "nfz_aware": false,
+      "actions_per_drone": {
+        "0": 13,
+        "1": 13,
+        "2": 13,
+        "3": 13
+      },
+      "nfz_violations_in_plan": 1
+    },
+    {
+      "json_parse": true,
+      "has_actions": true,
+      "n_actions": 52,
+      "valid_types": 52,
+      "invalid_types": 0,
+      "has_position": 24,
+      "missing_position": 0,
+      "valid_drone_ids": 52,
+      "invalid_drone_ids": 0,
+      "nfz_aware": true,
+      "actions_per_drone": {
+        "0": 13,
+        "1": 13,
+        "2": 13,
+        "3": 13
+      },
+      "nfz_violations_in_plan": 0
+    },
+    {
+      "json_parse": true,
+      "has_actions": true,
+      "n_actions": 52,
+      "valid_types": 52,
+      "invalid_types": 0,
+      "has_position": 24,
+      "missing_position": 0,
+      "valid_drone_ids": 52,
+      "invalid_drone_ids": 0,
+      "nfz_aware": false,
+      "actions_per_drone": {
+        "0": 13,
+        "1": 13,
+        "2": 13,
+        "3": 13
+      },
+      "nfz_violations_in_plan": 1
+    },
+    {
+      "json_parse": true,
+      "has_actions": true,
+      "n_actions": 52,
+      "valid_types": 52,
+      "invalid_types": 0,
+      "has_position": 24,
+      "missing_position": 0,
+      "valid_drone_ids": 52,
+      "invalid_drone_ids": 0,
+      "nfz_aware": true,
+      "actions_per_drone": {
+        "0": 13,
+        "1": 13,
+        "2": 13,
+        "3": 13
+      },
+      "nfz_violations_in_plan": 0
+    },
+    {
+      "json_parse": true,
+      "has_actions": true,
+      "n_actions": 52,
+      "valid_types": 52,
+      "invalid_types": 0,
+      "has_position": 24,
+      "missing_position": 0,
+      "valid_drone_ids": 52,
+      "invalid_drone_ids": 0,
+      "nfz_aware": true,
+      "actions_per_drone": {
+        "0": 13,
+        "1": 13,
+        "2": 13,
+        "3": 13
+      },
+      "nfz_violations_in_plan": 0
+    },
+    {
+      "json_parse": true,
+      "has_actions": true,
+      "n_actions": 52,
+      "valid_types": 52,
+      "invalid_types": 0,
+      "has_position": 24,
+      "missing_position": 0,
+      "valid_drone_ids": 52,
+      "invalid_drone_ids": 0,
+      "nfz_aware": false,
+      "actions_per_drone": {
+        "0": 13,
+        "1": 13,
+        "2": 13,
+        "3": 13
+      },
+      "nfz_violations_in_plan": 1
+    },
+    {
+      "json_parse": true,
+      "has_actions": true,
+      "n_actions": 52,
+      "valid_types": 52,
+      "invalid_types": 0,
+      "has_position": 24,
+      "missing_position": 0,
+      "valid_drone_ids": 52,
+      "invalid_drone_ids": 0,
+      "nfz_aware": true,
+      "actions_per_drone": {
+        "0": 13,
+        "1": 13,
+        "2": 13,
+        "3": 13
+      },
+      "nfz_violations_in_plan": 0
+    },
+    {
+      "json_parse": true,
+      "has_actions": true,
+      "n_actions": 52,
+      "valid_types": 52,
+      "invalid_types": 0,
+      "has_position": 24,
+      "missing_position": 0,
+      "valid_drone_ids": 52,
+      "invalid_drone_ids": 0,
+      "nfz_aware": true,
+      "actions_per_drone": {
+        "0": 13,
+        "1": 13,
+        "2": 13,
+        "3": 13
+      },
+      "nfz_violations_in_plan": 0
+    },
+    {
+      "json_parse": true,
+      "has_actions": true,
+      "n_actions": 52,
+      "valid_types": 52,
+      "invalid_types": 0,
+      "has_position": 24,
+      "missing_position": 0,
+      "valid_drone_ids": 52,
+      "invalid_drone_ids": 0,
+      "nfz_aware": true,
+      "actions_per_drone": {
+        "0": 13,
+        "1": 13,
+        "2": 13,
+        "3": 13
+      },
+      "nfz_violations_in_plan": 0
+    },
+    {
+      "json_parse": true,
+      "has_actions": true,
+      "n_actions": 52,
+      "valid_types": 52,
+      "invalid_types": 0,
+      "has_position": 24,
+      "missing_position": 0,
+      "valid_drone_ids": 52,
+      "invalid_drone_ids": 0,
+      "nfz_aware": true,
+      "actions_per_drone": {
+        "0": 13,
+        "1": 13,
+        "2": 13,
+        "3": 13
+      },
+      "nfz_violations_in_plan": 0
+    },
+    {
+      "json_parse": true,
+      "has_actions": true,
+      "n_actions": 52,
+      "valid_types": 52,
+      "invalid_types": 0,
+      "has_position": 24,
+      "missing_position": 0,
+      "valid_drone_ids": 52,
+      "invalid_drone_ids": 0,
+      "nfz_aware": true,
+      "actions_per_drone": {
+        "0": 13,
+        "1": 13,
+        "2": 13,
+        "3": 13
+      },
+      "nfz_violations_in_plan": 0
+    },
+    {
+      "json_parse": true,
+      "has_actions": true,
+      "n_actions": 52,
+      "valid_types": 52,
+      "invalid_types": 0,
+      "has_position": 24,
+      "missing_position": 0,
+      "valid_drone_ids": 52,
+      "invalid_drone_ids": 0,
+      "nfz_aware": true,
+      "actions_per_drone": {
+        "0": 13,
+        "1": 13,
+        "2": 13,
+        "3": 13
+      },
+      "nfz_violations_in_plan": 0
+    },
+    {
+      "json_parse": true,
+      "has_actions": true,
+      "n_actions": 52,
+      "valid_types": 52,
+      "invalid_types": 0,
+      "has_position": 24,
+      "missing_position": 0,
+      "valid_drone_ids": 52,
+      "invalid_drone_ids": 0,
+      "nfz_aware": true,
+      "actions_per_drone": {
+        "0": 13,
+        "1": 13,
+        "2": 13,
+        "3": 13
+      },
+      "nfz_violations_in_plan": 0
+    },
+    {
+      "json_parse": true,
+      "has_actions": true,
+      "n_actions": 52,
+      "valid_types": 52,
+      "invalid_types": 0,
+      "has_position": 24,
+      "missing_position": 0,
+      "valid_drone_ids": 52,
+      "invalid_drone_ids": 0,
+      "nfz_aware": true,
+      "actions_per_drone": {
+        "0": 13,
+        "1": 13,
+        "2": 13,
+        "3": 13
+      },
+      "nfz_violations_in_plan": 0
+    },
+    {
+      "json_parse": true,
+      "has_actions": true,
+      "n_actions": 52,
+      "valid_types": 52,
+      "invalid_types": 0,
+      "has_position": 24,
+      "missing_position": 0,
+      "valid_drone_ids": 52,
+      "invalid_drone_ids": 0,
+      "nfz_aware": true,
+      "actions_per_drone": {
+        "0": 13,
+        "1": 13,
+        "2": 13,
+        "3": 13
+      },
+      "nfz_violations_in_plan": 0
+    },
+    {
+      "json_parse": true,
+      "has_actions": true,
+      "n_actions": 52,
+      "valid_types": 52,
+      "invalid_types": 0,
+      "has_position": 24,
+      "missing_position": 0,
+      "valid_drone_ids": 52,
+      "invalid_drone_ids": 0,
+      "nfz_aware": false,
+      "actions_per_drone": {
+        "0": 13,
+        "1": 13,
+        "2": 13,
+        "3": 13
+      },
+      "nfz_violations_in_plan": 1
+    },
+    {
+      "json_parse": true,
+      "has_actions": true,
+      "n_actions": 52,
+      "valid_types": 52,
+      "invalid_types": 0,
+      "has_position": 24,
+      "missing_position": 0,
+      "valid_drone_ids": 52,
+      "invalid_drone_ids": 0,
+      "nfz_aware": false,
+      "actions_per_drone": {
+        "0": 13,
+        "1": 13,
+        "2": 13,
+        "3": 13
+      },
+      "nfz_violations_in_plan": 1
+    },
+    {
+      "json_parse": true,
+      "has_actions": true,
+      "n_actions": 52,
+      "valid_types": 52,
+      "invalid_types": 0,
+      "has_position": 24,
+      "missing_position": 0,
+      "valid_drone_ids": 52,
+      "invalid_drone_ids": 0,
+      "nfz_aware": true,
+      "actions_per_drone": {
+        "0": 13,
+        "1": 13,
+        "2": 13,
+        "3": 13
+      },
+      "nfz_violations_in_plan": 0
+    },
+    {
+      "json_parse": true,
+      "has_actions": true,
+      "n_actions": 52,
+      "valid_types": 52,
+      "invalid_types": 0,
+      "has_position": 24,
+      "missing_position": 0,
+      "valid_drone_ids": 52,
+      "invalid_drone_ids": 0,
+      "nfz_aware": false,
+      "actions_per_drone": {
+        "0": 13,
+        "1": 13,
+        "2": 13,
+        "3": 13
+      },
+      "nfz_violations_in_plan": 1
+    },
+    {
+      "json_parse": true,
+      "has_actions": true,
+      "n_actions": 52,
+      "valid_types": 52,
+      "invalid_types": 0,
+      "has_position": 24,
+      "missing_position": 0,
+      "valid_drone_ids": 52,
+      "invalid_drone_ids": 0,
+      "nfz_aware": true,
+      "actions_per_drone": {
+        "0": 13,
+        "1": 13,
+        "2": 13,
+        "3": 13
+      },
+      "nfz_violations_in_plan": 0
+    },
+    {
+      "json_parse": false,
+      "has_actions": false,
+      "n_actions": 0,
+      "error": "Expecting property name enclosed in double quotes: line 131 column 5 (char 3632)"
+    },
+    {
+      "json_parse": true,
+      "has_actions": true,
+      "n_actions": 52,
+      "valid_types": 52,
+      "invalid_types": 0,
+      "has_position": 24,
+      "missing_position": 0,
+      "valid_drone_ids": 52,
+      "invalid_drone_ids": 0,
+      "nfz_aware": true,
+      "actions_per_drone": {
+        "0": 13,
+        "1": 13,
+        "2": 13,
+        "3": 13
+      },
+      "nfz_violations_in_plan": 0
+    }
+  ]
+}
